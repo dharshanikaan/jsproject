@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Items </title>
+</head>
+<body>
+    <form id="form">
+        <label for="sp">Selling Price </label>
+        <input type="number" id="sp">
+       
+        <label for="productname">Product Name</label>
+        <input type="text" id="productname">
+        
+        <label for="productcat">Choose a Category</label>
+        <select id="productcat">
+            <option value="Electronics">Electronics</option>
+            <option value="fooditems">Food Items</option>
+            <option value="skincare">Skin Care</option>
+        </select>
+
+        <button  type="submit"id="butt">Add Product</button>
+    </form>
+    <h4>Electronics Items</h4>
+    <ul id="electroniclist"></ul>
+    <h4>Food Items</h4>
+    <ul id="foodlist"></ul>
+    <h4>Skin Care List</h4>
+    <ul id="skinlist"></ul>
+   <script src="pro.js"></script> 
+   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
